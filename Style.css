@@ -1,0 +1,41 @@
+body{
+    background-color: greenyellow;
+}
+h1{
+    color: red;
+    color: green;
+    color: grey;
+}
+
+u1 > li {
+    color: red;
+}
+
+h1 + p {
+    margin-top: 0;
+}
+
+h1 ~ p {
+    color: blueviolet;
+}
+
+[type="text"] {
+    border: 1px solid red;
+}
+
+div h1 {
+    color: blue;
+}
+
+p::first-letter {
+    font-weight: bold;
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+h1,p{
+    color: brown;
+}
